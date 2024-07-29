@@ -9,7 +9,7 @@ import { AboutUs } from './routes/about-us';
 import { Terms } from './routes/terms';
 import { PrivacyPolicy } from './routes/privacy-policy';
 import { Index } from './routes';
-import { Contact } from './routes/contact';
+import { Contact, action } from './routes/contact';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -33,6 +33,7 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />,
+        action,
       },
       {
         path: 'terms',
