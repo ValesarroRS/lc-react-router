@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import { Root } from './routes/root';
 import { RouterError } from './components/RouterError';
 import { Store } from './routes/store';
@@ -8,6 +9,8 @@ import { AboutUs } from './routes/about-us';
 import { Terms } from './routes/terms';
 import { PrivacyPolicy } from './routes/privacy-policy';
 import { Index } from './routes';
+import { Contact } from './routes/contact';
+import './index.css';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +31,7 @@ const router = createBrowserRouter([
         element: <AboutUs />,
       },
       {
-        path: 'contact-us',
+        path: 'contact',
         element: <Contact />,
       },
       {

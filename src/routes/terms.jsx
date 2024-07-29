@@ -1,11 +1,11 @@
+import { PageHeader } from '../components/PageHeader';
+
 export const Terms = () => {
   return (
     <div>
-      <header>
-        <h1>Terms of Service</h1>
-      </header>
+      <PageHeader>Terms & Conditions</PageHeader>
       <section>
-        <h2>Introduction</h2>
+        <h3>Introduction</h3>
         <p>
           These terms of service ("Terms") govern your use of [Your
           Website/Application Name] ("Service") provided by [Your
@@ -14,7 +14,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Acceptance of Terms</h2>
+        <h3>Acceptance of Terms</h3>
         <p>
           By accessing or using the Service, you agree to be bound by these
           Terms and our Privacy Policy. If you do not agree to these Terms or
@@ -23,7 +23,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Changes to Terms</h2>
+        <h3>Changes to Terms</h3>
         <p>
           We may modify these Terms from time to time. Any changes will be
           effective immediately upon posting the revised Terms on this page.
@@ -33,7 +33,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Intellectual Property</h2>
+        <h3>Intellectual Property</h3>
         <p>
           All content and materials available on the Service, including but not
           limited to text, graphics, logos, icons, images, and software, are the
@@ -44,7 +44,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Disclaimer of Warranties</h2>
+        <h3>Disclaimer of Warranties</h3>
         <p>
           The Service is provided "as is" and "as available" without warranties
           of any kind, either express or implied, including, but not limited to,
@@ -54,7 +54,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Limitation of Liability</h2>
+        <h3>Limitation of Liability</h3>
         <p>
           [Your Company/Organization Name] shall not be liable for any direct,
           indirect, incidental, special, consequential, or exemplary damages,
@@ -65,7 +65,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Governing Law</h2>
+        <h3>Governing Law</h3>
         <p>
           These Terms shall be governed by and construed in accordance with the
           laws of [Your Country/State], without regard to its conflict of law
@@ -74,7 +74,7 @@ export const Terms = () => {
       </section>
 
       <section>
-        <h2>Contact Us</h2>
+        <h3>Contact Us</h3>
         <p>
           If you have any questions about these Terms, please contact us at
           [Your Contact Email Address].

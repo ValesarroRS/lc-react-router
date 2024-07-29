@@ -1,9 +1,9 @@
+import { PageHeader } from '../components/PageHeader';
+
 export const Contact = () => {
   return (
     <div>
-      <header>
-        <h1>Contact Us</h1>
-      </header>
+      <PageHeader>Contact us</PageHeader>
 
       <main>
         <form action="your-server-side-script" method="POST">

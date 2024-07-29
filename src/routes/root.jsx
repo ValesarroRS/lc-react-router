@@ -4,26 +4,33 @@ export const Root = () => {
   return (
     <div>
       <nav>
-        <ul>
+        <ul className="flex flex-row gap-4 items-center justify-center mb-4">
           <li>
-            <NavLink to={`store`}>Store</NavLink>
+            <NavLink to="/">Landing</NavLink>
           </li>
           <li>
-            <NavLink to={`about-us`}>About us</NavLink>
+            <NavLink to="store">Store</NavLink>
           </li>
           <li>
-            <NavLink to={`terms`}>Terms & Conditions</NavLink>
+            <NavLink to="about-us">About us</NavLink>
           </li>
           <li>
-            <NavLink to={`privacy-policy`}>Privacy Policy</NavLink>
+            <NavLink to="terms">Terms & Conditions</NavLink>
           </li>
           <li>
-            <NavLink to={`contact`}>Contact us</NavLink>
+            <NavLink to="privacy-policy">Privacy Policy</NavLink>
+          </li>
+          <li>
+            <NavLink to="contact">Contact us</NavLink>
           </li>
         </ul>
       </nav>
-      <h1>Root page</h1>
-      <Outlet />
+      <h1 className="text-3xl font-bold underline text-center mb-4">
+        My Store Page
+      </h1>
+      <main className="flex flex-col w-full px-4">
+        <Outlet />
+      </main>
     </div>
   );
 };

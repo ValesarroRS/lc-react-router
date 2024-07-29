@@ -1,8 +1,11 @@
+import { PageHeader } from '../components/PageHeader';
+
 export const PrivacyPolicy = () => {
   return (
     <div>
+      <PageHeader>Privacy Policy</PageHeader>
       <section>
-        <h2>Introduction</h2>
+        <h3>Introduction</h3>
         <p>
           Welcome to [Your Company/Organization Name]'s Privacy Policy. We value
           your privacy and are committed to protecting your personal
@@ -12,7 +15,7 @@ export const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>Information We Collect</h2>
+        <h3>Information We Collect</h3>
         <p>
           We collect information that you provide directly to us, such as when
           you create an account, fill out a form, or contact us. This
@@ -22,7 +25,7 @@ export const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>How We Use Your Information</h2>
+        <h3>How We Use Your Information</h3>
         <p>We use the information we collect to:</p>
         <ul>
           <li>Provide, operate, and maintain our services</li>
@@ -40,7 +43,7 @@ export const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>Sharing Your Information</h2>
+        <h3>Sharing Your Information</h3>
         <p>
           We do not share your personal information with third parties except as
           described in this policy or with your consent. We may share
@@ -60,7 +63,7 @@ export const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>Security</h2>
+        <h3>Security</h3>
         <p>
           We implement a variety of security measures to maintain the safety of
           your personal information. However, no method of transmission over the
